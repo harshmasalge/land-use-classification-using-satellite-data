@@ -1,11 +1,11 @@
 # AI Sustainability Project
 
-This project focuses on analyzing and classifying land cover using satellite imagery and computer vision models.
+This project focuses on analyzing and classifying land cover using satellite imagery and Convolutional Neural Networks models.
 
 ## Dataset
 
 1. Download the dataset from the following link:
-   - [https://www.kaggle.com/datasets/rishabhsnip/delhi-airshed-sentinel-rgb-landcover](url)
+   - [Kaggle](https://www.kaggle.com/datasets/rishabhsnip/delhi-airshed-sentinel-rgb-landcover)
 2. Extract and place the raw dataset files (e.g., `.tif`, `.geojson`, `.zip`, `rgb/` folder) into the `data/raw/` directory.
 
 ## Project Structure
@@ -64,4 +64,5 @@ To plot the regions and grids for visualization:
 ```bash
 python scripts/visualisations.py
 ```
+
 
